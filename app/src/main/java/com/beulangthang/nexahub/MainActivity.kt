@@ -11,7 +11,7 @@ import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.getValue
 import androidx.compose.ui.Modifier
 import androidx.lifecycle.viewmodel.compose.viewModel
-import com.beulangthang.nexahub.ui.screen.TodoHomeScreen
+import com.beulangthang.nexahub.ui.screen.MainScreen
 import com.beulangthang.nexahub.ui.theme.NexahubTheme
 import com.beulangthang.nexahub.ui.viewmodel.TaskViewModel
 
@@ -31,7 +31,7 @@ class MainActivity : ComponentActivity() {
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colorScheme.background
                 ) {
-                    TodoHomeScreen(viewModel = taskViewModel)
+                    MainScreen(viewModel = taskViewModel)
                 }
             }
         }

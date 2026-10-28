@@ -64,7 +64,12 @@ data class Strings(
     val categoryStudy: String,
     val categoryOther: String,
     val createdDate: String,
-    val overdue: String
+    val overdue: String,
+    val navNotes: String,
+    val navCategories: String,
+    val navCalendar: String,
+    val navAnalytics: String,
+    val navSettings: String
 )
 
 val VietnameseStrings = Strings(
@@ -126,7 +131,12 @@ val VietnameseStrings = Strings(
     categoryStudy = "Học tập",
     categoryOther = "Khác",
     createdDate = "Ngày tạo",
-    overdue = "Quá hạn"
+    overdue = "Quá hạn",
+    navNotes = "Ghi chú",
+    navCategories = "Danh mục",
+    navCalendar = "Lịch",
+    navAnalytics = "Thống kê",
+    navSettings = "Cài đặt"
 )
 
 val EnglishStrings = Strings(
@@ -188,7 +198,12 @@ val EnglishStrings = Strings(
     categoryStudy = "Study",
     categoryOther = "Other",
     createdDate = "Created",
-    overdue = "Overdue"
+    overdue = "Overdue",
+    navNotes = "Notes",
+    navCategories = "Categories",
+    navCalendar = "Calendar",
+    navAnalytics = "Analytics",
+    navSettings = "Settings"
 )
 
 val LocalAppStrings = staticCompositionLocalOf { VietnameseStrings }
